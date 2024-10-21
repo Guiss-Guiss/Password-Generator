@@ -2,7 +2,7 @@ import string
 import random
 import time
 
-characters = list(string.ascii_letters + string.digits + "!@#$%^&*()-=_+?;:<>,.[]{}/`~")
+characters = list(string.ascii_letters + string.digits + "!@#$%^&*()-=_+?;:<>[]{}/`~")
 
 
 def generate_password():
