@@ -4,7 +4,6 @@ import time
 
 characters = list(string.ascii_letters + string.digits + "!@#$%^&*()-=_+?;:<>[]{}/`~")
 
-
 def generate_password():
     password_length = int(input("How long would you like your password to be? "))
     current_time = int(time.time())
