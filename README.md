@@ -25,7 +25,6 @@ Character Space: 26 (lowercase) + 26 (uppercase) + 10 (digits) + 26 (special) = 
 ## Security Considerations
 
 ⚠️ **Important Notes:**
-- Time-based seeding provides moderate entropy
 - Predictable if generation time is known
 - Suitable for casual use
 - Not recommended for cryptographic applications
@@ -34,7 +33,6 @@ Character Space: 26 (lowercase) + 26 (uppercase) + 10 (digits) + 26 (special) = 
 
 For higher security:
 - Use `secrets` module instead of `random`
-- Replace time seed with OS-provided entropy
 - Consider adding additional entropy sources
 
 ## Usage
