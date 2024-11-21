@@ -22,21 +22,12 @@ def generate_password():
     option = input("Do you want to generate another password? (y/n): ")
     if option == "y":
         generate_password()
-    elif option == "n":
-        print("Program ended")
-        quit()
     else:
-        print("Invalid input, please input y or n")
         quit()
 
 option = input("Do you want to generate a password? (y/n): ")
 
 if option == "y":
     generate_password()
-
-elif option == "n":
-    print("Program ended")
-    quit()
 else:
-    print("Invalid input, please input y or n")
     quit()
