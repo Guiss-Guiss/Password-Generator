@@ -39,7 +39,7 @@ For higher security:
 
 ## Usage
 ```bash
-python password_generator.py
+python password.py
 ```
 
 Follow prompts to:
